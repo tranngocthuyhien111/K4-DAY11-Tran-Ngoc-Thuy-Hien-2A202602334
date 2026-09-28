@@ -23,3 +23,6 @@ Ghi chú: đã xác nhận thủ công toàn bộ checklist. Các mismatch còn 
 - [x] Vật thiếu hoặc box trùng
 - [x] ignore_region có reason
 - [x] Tên task raw_fisheye và export CVAT 1.1
+
+## Fill ratio (K12)
+chưa vẽ polygon K12 (degrade)
