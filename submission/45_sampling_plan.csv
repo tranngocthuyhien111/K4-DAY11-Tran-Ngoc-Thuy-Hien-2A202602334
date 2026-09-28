@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,25,baseline,Phân bổ đều khi chưa có thống kê lỗi thật theo camera.
+front,hard,25,fisheye_edge_occlusion,Giữ 50% hard slice để kiểm tra méo fisheye, mép kính, che khuất và ego body.
+rear,normal,25,baseline,Phân bổ đều khi chưa có thống kê lỗi thật theo camera.
+rear,hard,25,fisheye_edge_occlusion,Giữ 50% hard slice để kiểm tra méo fisheye, mép kính, che khuất và ego body.
+left,normal,25,baseline,Phân bổ đều khi chưa có thống kê lỗi thật theo camera.
+left,hard,25,fisheye_edge_occlusion,Giữ 50% hard slice để kiểm tra méo fisheye, mép kính, che khuất và ego body.
+right,normal,25,baseline,Phân bổ đều khi chưa có thống kê lỗi thật theo camera.
+right,hard,25,fisheye_edge_occlusion,Giữ 50% hard slice để kiểm tra méo fisheye, mép kính, che khuất và ego body.
