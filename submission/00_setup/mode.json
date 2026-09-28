@@ -1,0 +1,15 @@
+{
+  "members": [
+    "hien"
+  ],
+  "assignments": {
+    "hien": "B1-center"
+  },
+  "self": "hien",
+  "slice": "B1-center",
+  "degrade": [],
+  "current_slice": "C0",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": []
+}
