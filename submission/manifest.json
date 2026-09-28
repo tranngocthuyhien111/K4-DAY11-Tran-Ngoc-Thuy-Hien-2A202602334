@@ -7,8 +7,8 @@
     },
     {
       "file": "00_setup/mode.json",
-      "lines": 15,
-      "sha256": "6bf7109b19e8b0b29dd8c8eac77ab0334d4fccf61261bf71f814aa38749bb3b8"
+      "lines": 21,
+      "sha256": "77ca4fbfea685d2288d46e1bff773060211355d096dbc0a98c79fb0c48390a8a"
     },
     {
       "file": "00_setup/sensor_context.md",
@@ -66,7 +66,7 @@
     {
       "file": "r1_craft/selfqc.md",
       "lines": 25,
-      "sha256": "cb70f80d0d7e752e0c2789146d512f0e05d3612084dcb3f32239ce6982e19380"
+      "sha256": "460a7895b3d3d312a060aef5ac4e088a45a3eb68fb52f9232ad641a3c975bbd4"
     },
     {
       "file": "r1_craft/reference.txt",
