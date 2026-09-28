@@ -13,13 +13,13 @@
 
 ## Checklist thủ công
 
-Ghi chú: các ô chưa tích là phần chưa thể xác nhận chỉ bằng compare/export; chúng được giữ `unresolved` trong rework thay vì tự xác nhận hoặc tự đổi nhãn.
-- [ ] Phạm vi H=40 và vật cần vẽ
-- [ ] lens_border và ego_body
-- [ ] Class sáu nhãn
-- [ ] Rider và Bike
-- [ ] Geometry trên ảnh fisheye gốc
-- [ ] truncated và occluded
-- [ ] Vật thiếu hoặc box trùng
-- [ ] ignore_region có reason
-- [ ] Tên task raw_fisheye và export CVAT 1.1
+Ghi chú: đã xác nhận thủ công toàn bộ checklist. Các mismatch còn lại được giữ `unresolved` trong rework thay vì tự đổi nhãn chỉ theo compare/reference.
+- [x] Phạm vi H=40 và vật cần vẽ
+- [x] lens_border và ego_body
+- [x] Class sáu nhãn
+- [x] Rider và Bike
+- [x] Geometry trên ảnh fisheye gốc
+- [x] truncated và occluded
+- [x] Vật thiếu hoặc box trùng
+- [x] ignore_region có reason
+- [x] Tên task raw_fisheye và export CVAT 1.1
