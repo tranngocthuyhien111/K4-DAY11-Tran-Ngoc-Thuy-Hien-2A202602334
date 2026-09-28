@@ -1,1 +1,30 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,L3+R3,na,WRONG_CLASS,E5_unresolved,P1,qa,R04,submission/p1_calib/compare.md,escalate,v1.0.0,Teaching-reference class discrepancy; visually review before changing the locked label
+calib,C0,adasind_019560.jpg,L5+R5,na,BOX_GEOMETRY,E5_unresolved,P1,qa,R02,submission/p1_calib/compare.md,escalate,v1.0.0,Teaching-reference geometry discrepancy; no edit was made automatically
+calib,C0,adasind_019560.jpg,L7,na,SPURIOUS,E5_unresolved,P1,qa,R01,submission/p1_calib/compare.md,escalate,v1.0.0,Scope and object visibility need visual review
+r1_craft,B1-center,adasind_006840.jpg,L7,na,IGNORE_SCOPE,E5_unresolved,P0,qa,R10,submission/r1_craft/compare.md,escalate,v1.0.0,No automatic deletion
+r1_craft,B1-center,adasind_006840.jpg,L2+R4,na,WRONG_CLASS,E5_unresolved,P1,qa,R04,submission/r1_craft/compare.md,escalate,v1.0.0,Teaching-reference discrepancy only
+r1_craft,B1-center,adasind_036720.jpg,L4+R1,na,ATTRIBUTE,E5_unresolved,P2,qa,R05,submission/r1_craft/compare.md,escalate,v1.0.0,No automatic attribute change
+r2_qa,B1-center,adasind_006840.jpg,L7,LR_noM,IGNORE_SCOPE,,P0,qa,R10,submission/r2_qa/qa_overlay.html,escalate,v1.0.0,Same-file cold review; not independent peer review
+r2_qa,B1-center,adasind_036720.jpg,L4+R1,LR_noM,ATTRIBUTE,,P2,qa,R05,submission/r2_qa/qa_overlay.html,escalate,v1.0.0,Same-file cold review; not independent peer review
+r2_qa,B1-center,adasind_056040.jpg,L4,LR_noM,IGNORE_SCOPE,,P0,qa,R10,submission/r2_qa/qa_overlay.html,escalate,v1.0.0,Same-file cold review; not independent peer review
+r3_diag,B1-center,adasind_006840.jpg,L3+R7,LR_noM,MISSING,E4_model_domain,P1,ai_team,R01,submission/r3_diag/model_compare.md,keep_with_reason,v1.0.0,L and teaching reference agree while model has no IoU-0.50 match
+r3_diag,B1-center,adasind_006840.jpg,L2+M12,LM_noR,SPURIOUS,E5_unresolved,P1,ai_team,R01,submission/r3_diag/model_compare.md,escalate,v1.0.0,L and model agree while teaching reference has no match
+r3_diag,B1-center,adasind_006840.jpg,R9+M11,RM_noL,MISSING,E5_unresolved,P1,annotator,R01,submission/r3_diag/model_compare.md,escalate,v1.0.0,Teaching reference and model agree while locked export has no match
+r3_diag,B1-center,adasind_006840.jpg,M3,M_only,SPURIOUS,E4_model_domain,P1,ai_team,R01,submission/r3_diag/model_compare.md,keep_with_reason,v1.0.0,Model-only proposal requires source-image confirmation
+r3_diag,B1-center,adasind_006840.jpg,M6,M_only,SPURIOUS,E4_model_domain,P1,ai_team,R01,submission/r3_diag/model_compare.md,keep_with_reason,v1.0.0,Model-only proposal requires source-image confirmation
+r3_diag,B1-center,adasind_036720.jpg,L4+R1,LR_noM,MISSING,E4_model_domain,P1,ai_team,R01,submission/r3_diag/model_compare.md,keep_with_reason,v1.0.0,L and teaching reference agree while model has no IoU-0.50 match
+r3_diag,B1-center,adasind_036720.jpg,M1,M_only,SPURIOUS,E4_model_domain,P1,ai_team,R01,submission/r3_diag/model_compare.md,keep_with_reason,v1.0.0,Model-only edge proposal requires source-image confirmation
+r3_diag,B1-center,adasind_056040.jpg,L2+R5,LR_noM,MISSING,E4_model_domain,P1,ai_team,R01,submission/r3_diag/model_compare.md,keep_with_reason,v1.0.0,L and teaching reference agree while model has no IoU-0.50 match
+r3_diag,B1-center,adasind_006840.jpg,M8,M_only,SPURIOUS,E4_model_domain,P1,ai_team,R01,submission/r3_diag/model_compare.md,keep_with_reason,v1.0.0,Model-only proposal requires source-image confirmation
+r3_diag,B1-center,adasind_006840.jpg,M9,M_only,SPURIOUS,E4_model_domain,P1,ai_team,R01,submission/r3_diag/model_compare.md,keep_with_reason,v1.0.0,Model-only proposal requires source-image confirmation
+r3_diag,B1-center,adasind_006840.jpg,M10,M_only,SPURIOUS,E4_model_domain,P1,ai_team,R01,submission/r3_diag/model_compare.md,keep_with_reason,v1.0.0,Model-only proposal requires source-image confirmation
+rework,B1-center,adasind_006840.jpg,L7,na,IGNORE_SCOPE,,,,,,,,
+rework,B1-center,adasind_006840.jpg,L2+R4,na,WRONG_CLASS,,,,,,,,
+rework,B1-center,adasind_006840.jpg,R9,na,MISSING,,,,,,,,
+rework,B1-center,adasind_036720.jpg,L4+R1,na,ATTRIBUTE,,,,,,,,
+rework,B1-center,adasind_056040.jpg,L4,na,IGNORE_SCOPE,,,,,,,,
+rework,B1-center,adasind_056040.jpg,L2+R5,na,ATTRIBUTE,,,,,,,,
+rework,B1-center,adasind_056040.jpg,L3+R2,na,ATTRIBUTE,,,,,,,,
+rework,B1-center,adasind_056040.jpg,L7+R7,na,ATTRIBUTE,,,,,,,,
+rework,B1-center,adasind_056040.jpg,R1,na,MISSING,,,,,,,,

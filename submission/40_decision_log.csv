@@ -1,1 +1,6 @@
 id,date,question,decision,rationale,status
+D01,2026-09-28,Can a teaching-reference mismatch directly change a locked label?,No automatic change,Teaching reference is diagnostic evidence and the source image must be reviewed before rework,escalated
+D02,2026-09-28,Which B1 frames receive ego_body?,Only adasind_036720.jpg and adasind_056040.jpg,Verified final export has ego_body counts 0/1/1 and R07 says not to draw it where ego body is absent,accepted
+D03,2026-09-28,Which frame is reviewed first?,adasind_006840.jpg,It contains IGNORE_SCOPE and has the lowest local-quality frame accuracy 0.778,accepted
+D04,2026-09-28,Should model-only boxes be added in rework?,No,Model-only cells are proposals rather than ground truth and must be visually confirmed on the original fisheye image,pending_review
+D05,2026-09-28,How are remaining B1 mismatches handled in rework?,Keep current labels as unresolved,No reviewer confirmation justified changing a locked label; rework uses the same verified export and preserves the observed delta,accepted
